@@ -1,0 +1,388 @@
+/*wjs_header模块开始*/
+.wjs_header {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.wjs_header .row > div {
+  border-right: 1px solid #ccc;
+}
+.wjs_header .row > div:first-of-type > a {
+  display: block;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  position: relative;
+}
+.wjs_header .row > div:first-of-type > a > img {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+  z-index: 999;
+}
+.wjs_header .row > div:first-of-type > a:hover > img {
+  display: block;
+  border-top: none;
+}
+.wjs_header .row > div:nth-of-type(2) {
+  height: 100%;
+  line-height: 50px;
+  padding: 0;
+}
+.wjs_header .row > div:nth-of-type(3) {
+  height: 100%;
+  line-height: 50px;
+}
+.wjs_header .row > div:nth-of-type(4) {
+  height: 100%;
+  line-height: 50px;
+  border-right: none;
+}
+.wjs_header .row > div:nth-of-type(4) > .btn {
+  padding: 3px 15px;
+}
+.wjs_header .row > div:nth-of-type(4) > .btn-danger {
+  background-color: #e92322;
+  border-color: #e92322;
+}
+.wjs_header .row > div:nth-of-type(4) a {
+  margin-left: 10px;
+}
+/*wjs_header模块结束*/
+/*wjs_nav模块开始*/
+.wjs_nav .navbar-toggle {
+  margin-top: 20px;
+}
+.wjs_nav .navbar-brand {
+  line-height: 50px;
+  height: 80px;
+}
+.wjs_nav .navbar-brand > span {
+  font-size: 30px;
+  color: #e92322;
+}
+.wjs_nav .navbar-brand > span:last-of-type {
+  color: #000;
+}
+.wjs_nav .navbar-nav > li > a {
+  line-height: 50px;
+}
+.wjs_nav .navbar-nav > li > a:hover,
+.wjs_nav .navbar-nav > li > a:focus {
+  border-bottom: 3px solid #e92322;
+  color: #777;
+}
+.wjs_nav .navbar-nav > li.active a {
+  background-color: transparent;
+  border-bottom: 3px solid #e92322;
+}
+.wjs_nav .navbar-nav > li.active a:hover,
+.wjs_nav .navbar-nav > li.active a:focus {
+  background-color: transparent;
+}
+.wjs_nav.navbar {
+  margin-bottom: 0px;
+}
+/*wjs_nav模块结束*/
+/*wjs_banner模块开始*/
+.wjs_banner .carousel-inner img {
+  width: 100%;
+}
+.wjs_banner .carousel-inner .imgbox {
+  height: 410px;
+  width: 100%;
+  background: url(../images/slide_01_2000x410.jpg) no-repeat center / cover;
+}
+/*wjs_banner模块结束*/
+/*wjs_info模块开始*/
+.wjs_info {
+  margin: 20px 0;
+}
+.wjs_info .media > .media-left {
+  padding-top: 10px;
+}
+.wjs_info .media > .media-left a {
+  display: block;
+}
+.wjs_info .media > .media-left a > span {
+  font-size: 30px;
+  line-height: 30px;
+}
+.wjs_info .media > .media-body > .media-heading {
+  margin-bottom: 10px;
+}
+.wjs_info .media > .media-body > p {
+  margin-bottom: 20px;
+}
+/*wjs_info模块结束*/
+/*wjs_reserve模块开始*/
+.wjs_reserve {
+  border-top: 1px solid #ccc;
+  line-height: 50px;
+  font-size: 14px;
+}
+.wjs_reserve a:hover,
+.wjs_reserve a:focus {
+  color: #e92322;
+}
+.wjs_reserve .wjs_icon {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.wjs_reserve .col-xs-9 .wjs_icon {
+  display: inline-block;
+  margin-top: -5px;
+}
+.wjs_reserve .col-xs-9 > a:last-of-type {
+  color: #e92322;
+  border-bottom: 1px dashed #e92322;
+}
+/*wjs_reserve模块结束*/
+/*wjs_product模块开始*/
+.wjs_product {
+  background-color: #888;
+}
+.wjs_product .container .product-wrap {
+  overflow: hidden;
+}
+.wjs_product .container .nav > li > a {
+  padding: 30px 15px;
+}
+.wjs_product .container .nav-tabs {
+  margin-bottom: 20px;
+}
+.wjs_product .container .nav-tabs > li {
+  padding: 0 20px;
+}
+.wjs_product .container .nav-tabs > li > a {
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+}
+.wjs_product .container .nav-tabs > li > a:hover {
+  background-color: transparent;
+  border-bottom: 3px solid #e92322;
+  color: #333;
+}
+.wjs_product .container .nav-tabs > li.active > a {
+  background-color: transparent;
+  border-bottom: 3px solid #e92322;
+  color: #333;
+}
+.wjs_product .container .tab-content .row > div .productBox {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 180px;
+  background-color: #fff;
+  position: relative;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight {
+  border-left: 1px dashed #888;
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 50px;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight > span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e92322;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight > sub {
+  bottom: 0;
+  color: #e92322;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight::before,
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  left: -5px;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight::before {
+  top: -5px;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxRight::after {
+  bottom: -5px;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxLeft {
+  margin-right: 100px;
+  height: 100%;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxLeft > h4 {
+  margin: 20px 0;
+  text-align: center;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxLeft > .row > div:nth-of-type(odd) {
+  text-align: left;
+}
+.wjs_product .container .tab-content .row > div .productBox > .productBoxLeft > .row > div:nth-of-type(even) {
+  text-align: right;
+}
+.wjs_product .container .tab-content .row > div:first-of-type .productBox {
+  color: #fff;
+  background-color: #e92322;
+}
+.wjs_product .container .tab-content .row > div:first-of-type .productBox > .productBoxLeft::before {
+  content: "\e915";
+  font-family: "wjs";
+  position: absolute;
+  font-size: 30px;
+  left: 0;
+  top: -6px;
+}
+.wjs_product .container .tab-content .row > div:first-of-type .productBox > .productBoxRight > span {
+  color: #fff;
+}
+.wjs_product .container .tab-content .row > div:first-of-type .productBox > .productBoxRight > sub {
+  color: #fff;
+}
+.wjs_product .container .tab-content .row > div:nth-of-type(2) .productBox > .productBoxRight > .productTips {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35px;
+  width: 100%;
+}
+.wjs_product .container .tab-content .row > div:nth-of-type(2) .productBox > .productBoxRight > .productTips > span:first-of-type {
+  color: red;
+  border: 1px dashed red;
+}
+.wjs_product .container .tab-content .row > div:nth-of-type(2) .productBox > .productBoxRight > .productTips > span:last-of-type {
+  color: blue;
+  border: 1px dashed blue;
+}
+/*wjs_product模块结束*/
+/*wjs_news模块开始*/
+.wjs_news {
+  margin-top: 20px;
+}
+.wjs_news .row > div:first-of-type > h4 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-size: 26px;
+  position: relative;
+  font-weight: 400;
+}
+.wjs_news .row > div:first-of-type > h4::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  right: -10px;
+  bottom: -5px;
+}
+.wjs_news .row > div:nth-of-type(2) {
+  position: relative;
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs {
+  border-bottom: none;
+  position: relative;
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > div {
+  border-left: 1px dashed #e92322;
+  height: 100%;
+  position: absolute;
+  left: 30px;
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .wjs_news .row > div:nth-of-type(2) > .nav-tabs > li {
+    margin-top: 30px;
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .wjs_news .row > div:nth-of-type(2) > .nav-tabs > li {
+    margin: 30px 40px 30px;
+  }
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li > a {
+  padding: 0px;
+  margin-right: 0px;
+  border: none;
+  width: 60px ;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #ccc;
+}
+@media screen and (max-width: 768px) {
+  .wjs_news .row > div:nth-of-type(2) > .nav-tabs > li > a {
+    margin: 0 auto;
+  }
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li > a::before {
+  font-size: 30px;
+  line-height: 60px;
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li.active > a,
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li.active a:hover,
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li.active a:focus {
+  background-color: #e92322;
+}
+.wjs_news .row > div:nth-of-type(2) > .nav-tabs > li:last-of-type {
+  margin-bottom: 0px;
+}
+.wjs_news .row > div:last-of-type .tab-content .wjs_newslist {
+  list-style: none;
+  padding-left: 20px;
+}
+.wjs_news .row > div:last-of-type .tab-content .wjs_newslist > li > a {
+  font-size: 20px;
+  line-height: 50px;
+}
+.wjs_news .row > div:last-of-type .tab-content .wjs_newslist > li > a:hover,
+.wjs_news .row > div:last-of-type .tab-content .wjs_newslist > li > a:focus {
+  color: #e92322;
+  text-decoration: none;
+}
+/*wjs_news模块结束*/
+/*wjs_links模块开始*/
+.wjs_links {
+  background-color: #999;
+  text-align: center;
+}
+.wjs_links > h4 {
+  font-size: 30px;
+  line-height: 60px;
+}
+.wjs_links > ul {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 0px;
+}
+.wjs_links > ul > li {
+  float: left;
+  margin: 0 20px;
+}
+.wjs_links > ul > li > a::before {
+  font-size: 80px;
+  line-height: 80px;
+}
+.wjs_links > ul > li > a:hover,
+.wjs_links > ul > li > a:focus {
+  color: #e92322;
+  text-decoration: none;
+}
+/*wjs_links模块结束*/
